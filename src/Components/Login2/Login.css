@@ -1,0 +1,104 @@
+@import url(//db.onlinewebfonts.com/c/67680f2eb947c5cbd58b40961b4a61e9?family=Apple+SD+Gothic+Neo);
+
+/* @media all and (min-width : 1024px){
+    .ToraLogin{
+        width : 480px;
+        height : 650px;
+    }
+    .ToraLogin input{
+        width : 372px;
+        height : 70px;
+
+        font-size: 2em;
+    }
+    .ToraLogin button{
+        width : 372px;
+        height : 70px;
+    }
+}
+
+@media all and (min-width : 768px){
+    .ToraLogin{
+        width : 280px;
+        height : 450px;
+    }
+    .ToraLogin input{
+        width : 185px;
+        height : 35px;
+    }
+    .ToraLogin button{
+        width : 185px;
+        height : 35px;
+    }
+
+}
+
+@media all and(min-width : 320px){
+    
+} */
+
+.ToraLogin{
+    width : 480px;
+    height : 650px;
+
+    margin : 0 auto ;
+    background : #ffffff;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: red;
+    box-shadow: 10px 5px 15px 0.1px #a6a6a6;
+}
+#firstText{
+    /*this is here because of making space on top of the "Email Address"
+    if there are better way to fix them using margin or padding of the main frame(.ToraLogin),
+    this can be deleted
+    */
+
+    padding-top: 80px; 
+}
+.ToraLogin input{
+    width : 372px;
+    height : 70px;
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: 15px 13px 30px 0.07px #a6a6a6;
+
+    
+    margin-top : -15px;
+    /* margin-bottom: 15px; */
+    margin-left : 54px;
+    
+}
+.ToraLogin input:focus{
+    outline : none;
+}
+.ToraLogin button{
+    width : 372px;
+    height : 70px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: #1C2239;
+    color : white;
+
+    font-size: 1.5em;
+    margin-top : 50px; /*visually, it looked like 60px, more documentation needed*/
+    margin-left : 54px;
+}
+.ToraLogin button:focus{
+    outline: none;
+}
+
+.LoginTitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size : 1.5em;
+    margin-left : 54px;
+}
+
+.LoginText{
+    font-family: ;
+    text-align: center;
+    margin-top : 40px;
+    font-size : 1.5em;
+    text-decoration: underline;
+
+}
