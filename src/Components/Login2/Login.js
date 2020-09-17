@@ -12,7 +12,7 @@ const Login = () => {
             <div className = "LoginText">
                 <p>Sign up for Tora</p>
                 <p>Search Email Address</p>
-            </div>
+            </div> 
 
         </div>
     );
