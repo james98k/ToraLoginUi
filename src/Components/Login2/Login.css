@@ -5,6 +5,9 @@
 } */
 
 .ToraLogin{
+    width : 480px;
+    height: 650px;
+
     margin : 0 auto ;
     background : #ffffff;
     border-radius: 30px;
@@ -12,6 +15,12 @@
     border-color: red; */
     box-shadow: 10px 5px 15px 0.1px #a6a6a6;
 }
+
+.ToraLogin,.ToraLogin input, button{
+    /* shadow */
+    box-shadow: 25px 20px 30px -15px rgba(112,112,112,0.67);
+}
+
 #firstText{
     /*this is here because of making space on top of the "Email Address"
     if there are better way to fix them using margin or padding of the main frame(.ToraLogin),
@@ -21,20 +30,33 @@
     padding-top: 80px; 
 }
 .ToraLogin input{
+    width : 347px;
+    height : 70px;
+    padding-left : 25px;
+    font-size : 1.5em;
+
     border-radius: 50px;
     border-style: none;
-    box-shadow: 15px 13px 30px 0.07px #a6a6a6;
+    /* box-shadow: 15px 13px 30px 0.07px #a6a6a6; */
+    
 
     
     margin-top : -15px;
     /* margin-bottom: 15px; */
     margin-left : 54px;
+
+    box-shadow: 25px 20px 30px -15px rgba(112,112,112,0.67);
     
 }
 .ToraLogin input:focus{
     outline : none;
 }
 .ToraLogin button{
+    width : 372px;
+    height : 70px;
+    font-size : 1.5em;
+    padding-left : 25px;
+
     border-radius: 50px;
     border-style: none;
     background-color: #1C2239;
@@ -49,11 +71,12 @@
 }
 
 .LoginTitle{
+    font-size : 1.5em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left : 54px;
 }
 
-.LoginText{
+.LoginText p{
     font-family: ;
     text-align: center;
     margin-top : 40px;
@@ -61,14 +84,18 @@
     text-decoration: underline;
 
 }
-@media all and (min-width : 768px){
-    
-}
-@media all and (min-width : 768px){
+@media all and (max-width : 768px){
     .ToraLogin{
         width : 280px;
         height : 450px;
         /* border : solid red; */
+    }
+    .ToraLogin{
+        /* shadow */
+        box-shadow: 25px 20px 30px -20px rgba(112,112,112,0.67);
+    }
+    .ToraLogin input, button{
+        box-shadow: 5px 10px 15px -3px rgba(112,112,112,0.67);
     }
     .ToraLogin input{
         width : 165px;
@@ -76,51 +103,22 @@
         padding-left : 20px;
 
         font-size : 1em;
+
+        /* box-shadow: 25px 20px 30px -15px rgba(112,112,112,0.67); */
     }
     .ToraLogin button{
         width : 185px;
         height : 35px;
         font-size : 1em;
+        text-align: center;
     }
     .LoginTitle{
         font-size : 1em;
     }
     .LoginText p{
-        font-size : 0.5em;
+        margin-top : 20px;
+        font-size : 0.7em;
     }
 
-}
-
-@media all and (min-width : 1024px){
-    .ToraLogin{
-        width : 480px;
-        height : 650px;
-        /* border : solid blue; */
-    }
-    .ToraLogin input{
-        /*padding-left is for the focus of the input. the total width of input tag is 
-        372 as the XD file described.
-        */
-        padding-left : 25px;
-        width : 347px;
-
-        height : 70px;
-
-        font-size: 2em;
-        
-    }
-    .ToraLogin button{
-        width : 372px;
-        height : 70px;
-        font-size: 1.5em;
-
-        padding-left : 25px;
-    }
-    .LoginTitle{
-        font-size : 1.5em;
-    }
-    .LoginText p{
-        font-size : 1em;
-    }
 }
 

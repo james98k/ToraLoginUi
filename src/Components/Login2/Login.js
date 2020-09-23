@@ -7,7 +7,7 @@ const Login = () => {
             <input type = "text"></input>
             <p className = "LoginTitle">Password</p>
             <input className = "LoginTitle" type = "password"></input><br></br>
-            <button type = "submit"> Log in</button>
+            <button className = "LoginButton" type = "submit"><span>Log in</span></button>
 
             <div className = "LoginText">
                 <p>Sign up for Tora</p>
