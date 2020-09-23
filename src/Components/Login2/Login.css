@@ -1,72 +1,8 @@
 @import url(//db.onlinewebfonts.com/c/67680f2eb947c5cbd58b40961b4a61e9?family=Apple+SD+Gothic+Neo);
 
-@media all and(min-width : 320px){
+/* @media all and(min-width : 320px){
     
-}
-
-@media all and (min-width : 768px){
-    .ToraLogin{
-        width : 280px;
-        height : 450px;
-        border : solid red;
-    }
-    .ToraLogin input{
-        width : 165px;
-        height : 35px;
-        padding-left : 20px;
-
-        font-size : 1em;
-    }
-    .ToraLogin button{
-        width : 185px;
-        height : 35px;
-        font-size : 1em;
-    }
-    .LoginTitle{
-        font-size : 1em;
-    }
-    .LoginText p{
-        font-size : 0.5em;
-    }
-
-}
-
-@media all and (min-width : 1024px){
-    .ToraLogin{
-        width : 480px;
-        height : 650px;
-        border : solid blue;
-    }
-    .ToraLogin input{
-        /*padding-left is for the focus of the input. the total width of input tag is 
-        372 as the XD file described.
-        */
-        padding-left : 25px;
-        width : 347px;
-
-        height : 70px;
-
-        font-size: 2em;
-        
-    }
-    .ToraLogin button{
-        width : 372px;
-        height : 70px;
-        font-size: 1.5em;
-
-        padding-left : 25px;
-    }
-    .LoginTitle{
-        font-size : 1.5em;
-    }
-    .LoginText p{
-        font-size : 1em;
-    }
-}
-
-
-
-
+} */
 
 .ToraLogin{
     margin : 0 auto ;
@@ -125,3 +61,66 @@
     text-decoration: underline;
 
 }
+@media all and (min-width : 768px){
+    
+}
+@media all and (min-width : 768px){
+    .ToraLogin{
+        width : 280px;
+        height : 450px;
+        /* border : solid red; */
+    }
+    .ToraLogin input{
+        width : 165px;
+        height : 35px;
+        padding-left : 20px;
+
+        font-size : 1em;
+    }
+    .ToraLogin button{
+        width : 185px;
+        height : 35px;
+        font-size : 1em;
+    }
+    .LoginTitle{
+        font-size : 1em;
+    }
+    .LoginText p{
+        font-size : 0.5em;
+    }
+
+}
+
+@media all and (min-width : 1024px){
+    .ToraLogin{
+        width : 480px;
+        height : 650px;
+        /* border : solid blue; */
+    }
+    .ToraLogin input{
+        /*padding-left is for the focus of the input. the total width of input tag is 
+        372 as the XD file described.
+        */
+        padding-left : 25px;
+        width : 347px;
+
+        height : 70px;
+
+        font-size: 2em;
+        
+    }
+    .ToraLogin button{
+        width : 372px;
+        height : 70px;
+        font-size: 1.5em;
+
+        padding-left : 25px;
+    }
+    .LoginTitle{
+        font-size : 1.5em;
+    }
+    .LoginText p{
+        font-size : 1em;
+    }
+}
+
