@@ -1,8 +1,9 @@
-20200924
-font-face updated.
+20200924<br>
+font-face updated.<br>
+box-shadow-figured.<br>
 
 
-20200924
+20200924<br>
 1.padding problem.
 giving padding to main frame, the whole frame height gets bigger.
 --> not able to solve the problem by myself so made a #firsttext to solve the top-padding(margin) problem.
