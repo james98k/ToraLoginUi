@@ -1,18 +1,13 @@
 @import url(//db.onlinewebfonts.com/c/67680f2eb947c5cbd58b40961b4a61e9?family=Apple+SD+Gothic+Neo);
 
-/* @media all and(min-width : 320px){
-    
-} */
-
 .ToraLogin{
     width : 480px;
     height: 650px;
 
     margin : 0 auto ;
+
     background : #ffffff;
     border-radius: 30px;
-    /* border-style: solid;
-    border-color: red; */
     box-shadow: 10px 5px 15px 0.1px #a6a6a6;
 }
 
@@ -26,36 +21,36 @@
     if there are better way to fix them using margin or padding of the main frame(.ToraLogin),
     this can be deleted
     */
-
     padding-top: 80px; 
 }
+
 .ToraLogin input{
     width : 347px;
     height : 70px;
+    
+    margin-top : -15px;
+    margin-left : 54px;
     padding-left : 25px;
+    
     font-size : 1.5em;
 
     border-radius: 50px;
     border-style: none;
-    /* box-shadow: 15px 13px 30px 0.07px #a6a6a6; */
-    
-
-    
-    margin-top : -15px;
-    /* margin-bottom: 15px; */
-    margin-left : 54px;
-
-    box-shadow: 25px 20px 30px -15px rgba(112,112,112,0.67);
     
 }
 .ToraLogin input:focus{
     outline : none;
 }
+
 .ToraLogin button{
     width : 372px;
     height : 70px;
-    font-size : 1.5em;
+
+    margin-top : 50px; /*visually, it looked like 60px, more documentation needed*/
+    margin-left : 54px;
     padding-left : 25px;
+
+    font-size : 1.5em;
 
     border-radius: 50px;
     border-style: none;
@@ -63,8 +58,7 @@
     color : white;
 
     /* font-size: 1.5em; */
-    margin-top : 50px; /*visually, it looked like 60px, more documentation needed*/
-    margin-left : 54px;
+   
 }
 .ToraLogin button:focus{
     outline: none;
@@ -77,10 +71,11 @@
 }
 
 .LoginText p{
-    font-family: ;
-    text-align: center;
+    
     margin-top : 40px;
+
     font-size : 1.5em;
+    text-align: center;
     text-decoration: underline;
 
 }
@@ -88,7 +83,6 @@
     .ToraLogin{
         width : 280px;
         height : 450px;
-        /* border : solid red; */
     }
     .ToraLogin{
         /* shadow */
@@ -100,15 +94,15 @@
     .ToraLogin input{
         width : 165px;
         height : 35px;
+
         padding-left : 20px;
 
         font-size : 1em;
-
-        /* box-shadow: 25px 20px 30px -15px rgba(112,112,112,0.67); */
     }
     .ToraLogin button{
         width : 185px;
         height : 35px;
+        
         font-size : 1em;
         text-align: center;
     }
@@ -119,6 +113,5 @@
         margin-top : 20px;
         font-size : 0.7em;
     }
-
 }
 
