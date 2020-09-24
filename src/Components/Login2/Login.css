@@ -1,5 +1,34 @@
 @import url(//db.onlinewebfonts.com/c/67680f2eb947c5cbd58b40961b4a61e9?family=Apple+SD+Gothic+Neo);
 
+@font-face{
+    font-family: AppleSDGothicNeoBold;
+    src : url('../../fonts/AppleSDGothicNeoB.ttf')
+}
+@font-face{
+    font-family: AppleSDGothicNeoSemiBold;
+    src : url('../../fonts/AppleSDGothicNeoSB.ttf')
+}
+@font-face{
+    font-family: AppleSDGothicNeoMedium;
+    src : url('../../fonts/AppleSDGothicNeoM.ttf')
+}
+@font-face{
+    font-family: AppleSDGotheNeoRegular;
+    src : url('../../fonts/AppleSDGothicNeoR.ttf')
+}
+@font-face{
+    font-family: AppleSDGothicNeoLight;
+    src : url('../../fonts/AppleSDGothicNeoUL.ttf')
+}
+@font-face{
+    font-family: AppleSDGothicNeoThin;
+    src : url('../../fonts/AppleSDGothicNeoT.ttf')
+}
+@font-face{
+    font-family: AppleSDGothicNeo;
+    src : url();
+}
+
 .ToraLogin{
     width : 480px;
     height: 650px;
@@ -50,6 +79,7 @@
     margin-left : 54px;
     padding-left : 25px;
 
+    font-family: 'AppleSDGothicNeoMedium';
     font-size : 1.5em;
 
     border-radius: 50px;
@@ -65,15 +95,17 @@
 }
 
 .LoginTitle{
+    font-family: 'AppleSDGothicNeoBold';
     font-size : 1.5em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     margin-left : 54px;
 }
 
 .LoginText p{
-    
+    color : #1C2239;
     margin-top : 40px;
 
+    font-family: 'AppleSDGothicNeoSemiBold';
     font-size : 1.5em;
     text-align: center;
     text-decoration: underline;
@@ -102,7 +134,7 @@
     .ToraLogin button{
         width : 185px;
         height : 35px;
-        
+
         font-size : 1em;
         text-align: center;
     }
@@ -111,6 +143,7 @@
     }
     .LoginText p{
         margin-top : 20px;
+
         font-size : 0.7em;
     }
 }
