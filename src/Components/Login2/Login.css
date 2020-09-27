@@ -37,13 +37,14 @@
 
     background : #ffffff;
     border-radius: 30px;
-    box-shadow: 10px 5px 15px 0.1px #a6a6a6;
+    /* box-shadow: 30px 30px 10px 0.1px #a6a6a6; */
+    box-shadow : 6px 7px 30px -3px rgba(112,112,112,0.3);
 }
 
-.ToraLogin,.ToraLogin input, button{
+.ToraLogin input, button{
     /* shadow */
     /* box-shadow: 25px 20px 30px -15px rgba(112,112,112,0.67); */
-    box-shadow : 4px 6px 14px -2px rgba(112,112,112,0.96);
+    box-shadow : 1px 4px 10px -1px rgba(112,112,112,0.4);
 
 }
 
@@ -103,9 +104,12 @@
     margin-left : 54px;
 }
 
+.LoginText{
+    margin-top : 60px;
+}
 .LoginText p{
     color : #1C2239;
-    margin-top : 40px;
+    /* margin-top : 35px; */
 
     font-family: 'AppleSDGothicNeoSemiBold';
     font-size : 1.5em;
@@ -120,10 +124,14 @@
     }
     .ToraLogin{
         /* shadow */
-        box-shadow: 25px 20px 30px -20px rgba(112,112,112,0.67);
+        /* box-shadow: 25px 20px 30px -20px rgba(112,112,112,0.67); */
+        box-shadow : 6px 7px 30px -3px rgba(112,112,112,0.3);
+
     }
     .ToraLogin input, button{
-        box-shadow: 5px 10px 15px -3px rgba(112,112,112,0.67);
+        /* box-shadow: 5px 10px 15px -3px rgba(112,112,112,0.67); */
+        box-shadow : 1px 4px 10px -1px rgba(112,112,112,0.4);
+
     }
     .ToraLogin input{
         width : 165px;
@@ -143,10 +151,13 @@
     .LoginTitle{
         font-size : 1em;
     }
+    .LoginText{
+        margin-top : 40px;
+    }
     .LoginText p{
-        margin-top : 20px;
+        /* margin-top : 20px; */
 
-        font-size : 0.7em;
+        font-size : 0.8em;
     }
 }
 
